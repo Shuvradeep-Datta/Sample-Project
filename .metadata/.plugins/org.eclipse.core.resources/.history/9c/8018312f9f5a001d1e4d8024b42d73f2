@@ -18,7 +18,7 @@ public interface StudentService {
 //Solve
 	public Student fetchByName(String studentName);
 
-	public Void deleteDepartmentById(Long studentId);
+	public Student deleteById(Long studentId);
 
 	
 
