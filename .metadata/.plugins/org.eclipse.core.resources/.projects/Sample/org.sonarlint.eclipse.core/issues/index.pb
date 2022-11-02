@@ -9,3 +9,5 @@ l
 <src/main/java/com/example/sample/service/StudentService.java,9\8\9893f20af7b471347d52bf64a3a28bd3f8dd23bb
 p
 @src/main/java/com/example/sample/service/StudentServiceImpl.java,2\f\2ffe439488816738bb6bcb680d847e24150a1162
+Y
+)src/main/resources/application.properties,0\6\06f65155ec73600b9fc5c4dc2883d4bb84d8e284

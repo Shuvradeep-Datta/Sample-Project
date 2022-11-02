@@ -29,6 +29,20 @@ public class StudentServiceImpl implements StudentService {
 	}
 
 
+	@Override
+	public Student fetchById(Long studentId) {
+		// TODO Auto-generated method stub
+		return studentRepository.findById(studentId).get();
+	}
+
+//Kuntal->>
+	@Override
+	public Student fetchByName(String studentName) {
+		// TODO Auto-generated method stub
+		return studentRepository.findByStudentName(studentName);
+	}
+
+
 	
 
 }

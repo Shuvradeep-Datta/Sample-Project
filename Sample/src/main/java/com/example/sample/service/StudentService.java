@@ -14,6 +14,10 @@ public interface StudentService {
 
 	public List<Student> fetchStudent();
 
+	public Student fetchById(Long studentId);
+
+	public Student fetchByName(String studentName);
+
 	
 
 
