@@ -18,10 +18,6 @@ public interface StudentService {
 //Solve
 	public Student fetchByName(String studentName);
 
-	public Student updateStudentById(Long studentId, Student student);
-
-	
-
 	
 
 

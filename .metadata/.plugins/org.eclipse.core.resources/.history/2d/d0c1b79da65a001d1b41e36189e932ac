@@ -59,12 +59,12 @@ public class StudentServiceImpl implements StudentService {
         	stu.setStudentCode(student.getStudentCode());
         }
 
-        if(Objects.nonNull(student.getStudentAddress()) &&
-                !"".equalsIgnoreCase(student.getStudentAddress())) {
-            stu.setStudentAddress(student.getStudentAddress());
+        if(Objects.nonNull(department.getDepartmentAddress()) &&
+                !"".equalsIgnoreCase(department.getDepartmentAddress())) {
+            depDB.setDepartmentAddress(department.getDepartmentAddress());
         }
 
-        return studentRepository.save(stu);
+        return departmentRepository.save(depDB);
 	}
 
 
