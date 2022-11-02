@@ -1,0 +1,11 @@
+package com.example.sample.service;
+
+import com.example.sample.entities.Student;
+
+public interface StudentService {
+
+	public Student SaveStudent(Student student);
+
+
+
+}

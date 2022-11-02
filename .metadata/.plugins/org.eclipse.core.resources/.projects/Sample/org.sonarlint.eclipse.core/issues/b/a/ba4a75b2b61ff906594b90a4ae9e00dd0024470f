@@ -1,0 +1,9 @@
+
+‡	java:S116"VRename this field "StudentName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú‰ˆ¬8ÙçÂ¥Ã0HRMINORZ
+CODE_SMELL
+Š	java:S116"YRename this field "StudentAddress" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÙà8ÙçÂ¥Ã0HRMINORZ
+CODE_SMELL
+Š	java:S116"TRename this field "StudentId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Æ¨üúÿÿÿÿ8ÙçÂ¥Ã0HRMINORZ
+CODE_SMELL
+Œ	java:S116"VRename this field "StudentCode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¸Éöıÿÿÿÿ8ÙçÂ¥Ã0HRMINORZ
+CODE_SMELL

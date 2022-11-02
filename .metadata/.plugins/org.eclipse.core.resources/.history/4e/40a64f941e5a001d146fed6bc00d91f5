@@ -1,0 +1,17 @@
+package com.example.sample.service;
+
+import com.example.sample.dao.StudentRepository;
+import com.example.sample.entities.Student;
+
+public class StudentServiceImpl implements StudentService {
+	
+	public StudentRepository studentRepository;
+	
+
+	@Override
+	public Student SaveStudent(Student student) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

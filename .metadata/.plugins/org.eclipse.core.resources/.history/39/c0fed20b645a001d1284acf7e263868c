@@ -1,0 +1,20 @@
+package com.example.sample.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.sample.dao.StudentRepository;
+import com.example.sample.entities.Student;
+
+public class StudentServiceImpl implements StudentService {
+	
+	@Autowired
+	public StudentRepository studentRepository;
+	
+
+	@Override
+	public Student SaveStudent(Student student) {
+
+		return studentRepository.save(student);
+	}
+
+}
